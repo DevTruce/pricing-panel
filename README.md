@@ -54,7 +54,7 @@
 
 <img src='icons/screenshot.png' alt='project example'>
 
-This is a simple 1 page learning project created for school.
+This is a simple responsive 1 page learning project created for school.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

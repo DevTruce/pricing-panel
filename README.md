@@ -98,8 +98,6 @@ This is a responsive webpage, it contains a pricing panel that displays the diff
 
 You can use this project for anything if you would like, It was completed for school and I might add onto it in the future.
 
-_For more examples, please refer to the [Documentation](https://example-icon)_
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->

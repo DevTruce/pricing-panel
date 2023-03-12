@@ -1,177 +1,141 @@
-# Pricing Panel - School Project
+<a id="readme-top"></a>
 
-## Table of contents
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-- [Screenshot](#screenshot)
-- [Links](#links)
-- [Built with](#built-with)
-- [Author](#author)
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/DevTruce/pricing-panel">
+    <img src="icons/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-### Screenshot
+<h3 align="center">Pricing Panel</h3>
 
-![](solution.png)
+  <p align="center">
+    flexbox pricing panel project
+    <br />
+    <a href="https://github.com/DevTruce/pricing-panel"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://devtruce.github.io/pricing-panel/">View Demo</a>
+    ·
+    <a href="https://github.com/DevTruce/pricing-panel/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DevTruce/pricing-panel/issues">Request Feature</a>
+  </p>
+</div>
 
-### Links
-
-- Live Site:([Live Site](https://devtruce.github.io/pricing-panel/))
-
-### Built with
-
-- HTML5
-- CSS3
-- Flexbox
-
-```html
-<body>
-  <div class="panel pricing-table">
-    <div class="pricing-plan">
-      <img src="icons/icon1.png" alt="" class="pricing-img" />
-      <h2 class="pricing-header">Personal</h2>
-      <ul class="pricing-features">
-        <li class="pricing-features-item">Custom domains</li>
-        <li class="pricing-features-item">
-          Sleeps after 30 mins of inactivity
-        </li>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
-      <span class="pricing-price">Free</span>
-      <a href="#/" class="pricing-button">Sign up</a>
-    </div>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-    <div class="pricing-plan">
-      <img src="icons/icon2.png" alt="" class="pricing-img" />
-      <h2 class="pricing-header">Small team</h2>
-      <ul class="pricing-features">
-        <li class="pricing-features-item">Never sleeps</li>
-        <li class="pricing-features-item">
-          Multiple workers for more powerful apps
-        </li>
-      </ul>
-      <span class="pricing-price">$150</span>
-      <a href="#/" class="pricing-button is-featured">Free trial</a>
-    </div>
+<!-- ABOUT THE PROJECT -->
 
-    <div class="pricing-plan">
-      <img src="icons/icon3.png" alt="" class="pricing-img" />
-      <h2 class="pricing-header">Enterprise</h2>
-      <ul class="pricing-features">
-        <li class="pricing-features-item">Dedicated</li>
-        <li class="pricing-features-item">Simple horizontal scalability</li>
-      </ul>
-      <span class="pricing-price">$400</span>
-      <a href="#/" class="pricing-button">Free trial</a>
-    </div>
-  </div>
-</body>
-```
+## About The Project
 
-```css
-html {
-  font-family: "Open Sans", sans-serif;
-  box-sizing: border-box;
-  text-transform: uppercase;
-}
+<img src='icons/screenshot.png' alt='project example'>
 
-body {
-  background-color: #60a9ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
+This is a simple 1 page learning project created for school.
 
-.panel {
-  background-color: white;
-  width: 100%;
-  max-width: 960px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  text-align: center;
-  padding: 15px 25px;
-}
-.pricing-header {
-  color: #888;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-.pricing-features-item {
-  border-top: 1px solid #e1f1ff;
-  color: #016ff9;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 15px 0;
-  line-height: 1.5;
-  letter-spacing: 1px;
-}
+### Built With
 
-.pricing-features-item:last-child {
-  border-bottom: 1px solid #e1f1ff;
-  border-width: 80%;
-}
+- [![HTML5][html5.com]][html5-url]
+- [![CSS3][css3.com]][css3-url]
+  - [![Flexbox][flexbox.com]][flexbox-url]
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-.pricing-features {
-  margin: 50px 0 25px 0;
-}
+<!-- GETTING STARTED -->
 
-.pricing-price {
-  color: #016ff9;
-  font-weight: 700;
-  font-size: 32px;
-  display: block;
-}
+## Getting Started
 
-.pricing-plan {
-  border-bottom: 1px solid #e1f1ff;
-  padding: 25px 50px;
-}
+<img src="icons/step1.png" alt=""> 
+<img src="icons/step2.png" alt=""> 
+<img src="icons/step3.png" alt="">
 
-.pricing-button {
-  color: #348efe;
-  border: 1px solid #9dd1ff;
-  border-radius: 10px;
-  padding: 15px 35px;
-  margin: 25px 0;
-  text-decoration: none;
-  display: inline-block;
-}
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-.pricing-button:hover {
-  background-color: #e1f1ff;
-}
+<!-- LICENSE -->
 
-.pricing-button.is-featured {
-  background-color: #48aaff;
-  color: white;
-}
+## License
 
-.pricing-button.is-featured:hover {
-  background-color: #269aff;
-  transition: background-color 200ms ease-in-out;
-}
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-.pricing-img {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 25px;
-}
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-@media (min-width: 800px) {
-  .panel {
-    flex-direction: row;
-  }
+<!-- CONTACT -->
 
-  .pricing-plan {
-    border-bottom: none;
-    border-right: 1px solid #e1f1ff;
-  }
+## Contact
 
-  .pricing-plan:last-child {
-    border-right: none;
-  }
-}
-```
+Email: [DevTruce@Gmail.com]()
 
-## Author
+Discord: [Xzypher#9999]()
 
-- Frontend Mentor - [@DevTruce](https://www.frontendmentor.io/profile/DevTruce)
+Project Link: [Pricing Panel](https://github.com/DevTruce/pricing-panel)
+
+Frontend Mentor: [Frontend Mentor Profile](https://www.frontendmentor.io/profile/DevTruce)
+
+[Stack Overflow](https://stackoverflow.com/users/16258101/dev-truce) | [Showwcase](https://www.showwcase.com/devtruce) | [Twitter](https://twitter.com/DevTruce) | [Reddit](https://www.reddit.com/user/DevTruce)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[html5.com]: https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white
+[html5-url]: https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white
+[css3.com]: https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[css3-url]: https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[flexbox.com]: https://img.shields.io/badge/flexbox-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[flexbox-url]: https://img.shields.io/badge/flexbox-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[grid.com]: https://img.shields.io/badge/Grid-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[grid-url]: https://img.shields.io/badge/Grid-blue?style=for-the-badge&logo=CSS3&logoColor=white
+[contributors-shield]: https://img.shields.io/github/contributors/DevTruce/pricing-panel.svg?style=for-the-badge
+[contributors-url]: https://github.com/DevTruce/pricing-panel/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/DevTruce/pricing-panel.svg?style=for-the-badge
+[forks-url]: https://github.com/DevTruce/pricing-panel/network/members
+[stars-shield]: https://img.shields.io/github/stars/DevTruce/pricing-panel.svg?style=for-the-badge
+[stars-url]: https://github.com/DevTruce/pricing-panel/stargazers
+[issues-shield]: https://img.shields.io/github/issues/DevTruce/pricing-panel.svg?style=for-the-badge
+[issues-url]: https://github.com/DevTruce/pricing-panel/issues
+[license-shield]: https://img.shields.io/github/license/DevTruce/pricing-panel.svg?style=for-the-badge
+[license-url]: https://github.com/DevTruce/pricing-panel/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/trucer/
+[product-screenshot]: images/screenshot.png
+[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[vue-url]: https://vuejs.org/
+[angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[angular-url]: https://angular.io/
+[svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[svelte-url]: https://svelte.dev/
+[laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[laravel-url]: https://laravel.com
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
+[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-url]: https://jquery.com

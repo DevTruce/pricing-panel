@@ -20,7 +20,7 @@
 <h3 align="center">Pricing Panel</h3>
 
   <p align="center">
-    flexbox pricing panel project for school
+    flexbox pricing panel project
     <br />
     <a href="https://github.com/DevTruce/pricing-panel" target="_blank"><strong>Explore the docs »</strong></a>
     <br />

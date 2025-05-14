@@ -18,7 +18,7 @@
 <h3 align="center">Pricing Panel</h3>
 
   <p align="center">
-    learning project
+    A clean, three-tier pricing panel layout.
     <br />
     <br />
     <a href="https://devtruce.github.io/pricing-panel/" target="_blank">View Demo</a>
